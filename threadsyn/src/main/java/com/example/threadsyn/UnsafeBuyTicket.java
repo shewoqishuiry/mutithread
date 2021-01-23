@@ -24,6 +24,7 @@ class BuyTicket implements Runnable {
             buy();
         }
     }
+
     private void buy() {
         if (ticketNum <= 0 ) {
             flag = false;

@@ -60,11 +60,11 @@ class Drawing extends Thread {
             return;
         }
 
-//        try {
-//            Thread.sleep(100);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         //卡内余额 = 余额 - 你取的钱
         account.money = account.money - drawingMoney;
